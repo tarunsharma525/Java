@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class Calculater {
     public static void main(String args[]) {
-        Scanner scn = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         float a,b;
         char operator;
         System.out.print("Enter the First Number: ");
-        a = scn.nextFloat();
+        a = sc.nextFloat();
         System.out.print("Enter the Operator(+,-,*,/,%): ");
-        operator = scn.next().charAt(0);
+        operator = sc.next().charAt(0);
         System.out.print("Enter the Second number: ");
-        b = scn.nextFloat();
+        b = sc.nextFloat();
 
         switch(operator) {
 
